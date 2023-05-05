@@ -7,10 +7,12 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "test")
-public class abcd {
+public class test {
 	
 	@Id
+	@Column(name = "id")
 	int id;
+	@Column(name = "firstname")
 	String firstname;
 	
 
